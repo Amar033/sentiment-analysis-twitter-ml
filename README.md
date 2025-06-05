@@ -30,27 +30,6 @@ A full-stack AI-powered web app that analyzes the **sentiment of any tweet** usi
 
 ---
 
-## 📁 Folder Structure
-
-sentiment-analysis-twiter-ml/
-├── backend/
-│ ├── main.py
-│ ├── model/
-│ │ ├── logistic_model.pkl
-│ │ └── tfidf_vectorizer.pkl
-│ └── requirements.txt
-├── sentiment-frontend/
-│ ├── App.js
-│ ├── index.js
-│ ├── App.css
-│ └── package.json
-├── notebook/
-| └── eda.ipynb
-└── README.md
-
-
----
-
 ## 💡 How it Works
 
 1. **User** enters a tweet on the web interface.
