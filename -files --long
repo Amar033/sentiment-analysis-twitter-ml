@@ -1,0 +1,43 @@
+[33mcommit 17716fcb2b6d1cf30441ea3bc4644153618ba6c5[m
+Author: Amar <amarbavi12345@gmail.com>
+Date:   Thu Jun 5 16:55:53 2025 +0530
+
+    Project completed added final touches
+
+.vscode/settings.json
+backend/main.py
+backend/model/logistic_model.pkl
+backend/model/tfidf_vectorizer.pkl
+backend/requirements.txt
+backend/test/Scripts/Activate.ps1
+backend/test/Scripts/activate
+backend/test/Scripts/activate.bat
+backend/test/Scripts/deactivate.bat
+backend/test/Scripts/fastapi.exe
+backend/test/Scripts/pip.exe
+backend/test/Scripts/pip3.11.exe
+backend/test/Scripts/pip3.exe
+backend/test/Scripts/python.exe
+backend/test/Scripts/pythonw.exe
+backend/test/pyvenv.cfg
+data/sentiment_data.csv
+data/train_sample.csv
+notebook/eda.ipynb
+sentiment-frontend/.gitignore
+sentiment-frontend/README.md
+sentiment-frontend/package-lock.json
+sentiment-frontend/package.json
+sentiment-frontend/public/favicon.ico
+sentiment-frontend/public/index.html
+sentiment-frontend/public/logo192.png
+sentiment-frontend/public/logo512.png
+sentiment-frontend/public/manifest.json
+sentiment-frontend/public/robots.txt
+sentiment-frontend/src/App.css
+sentiment-frontend/src/App.js
+sentiment-frontend/src/App.test.js
+sentiment-frontend/src/index.css
+sentiment-frontend/src/index.js
+sentiment-frontend/src/logo.svg
+sentiment-frontend/src/reportWebVitals.js
+sentiment-frontend/src/setupTests.js
