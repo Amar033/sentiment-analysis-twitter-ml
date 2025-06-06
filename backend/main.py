@@ -30,10 +30,10 @@ def load_models():
     global model, vectorizer
     
     try:
-        if not os.path.exists("model/logistic_model.pkl"):
+        if not os.path.exists("./model/logistic_model.pkl"):
             raise FileNotFoundError("Model file not found: model/logistic_model.pkl")
         
-        if not os.path.exists("model/tfidf_vectorizer.pkl"):
+        if not os.path.exists("./model/tfidf_vectorizer.pkl"):
             raise FileNotFoundError("Vectorizer file not found: model/tfidf_vectorizer.pkl")
     
         model = joblib.load("model/logistic_model.pkl")
