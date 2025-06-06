@@ -20,7 +20,7 @@ vectorizer = None
 class TextInput(BaseModel):
     text: str
 
-def load_models()
+def load_models():
     global model, vectorizer
     
     try:
