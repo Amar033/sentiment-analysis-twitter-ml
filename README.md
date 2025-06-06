@@ -14,7 +14,7 @@ A full-stack AI-powered web app that analyzes the **sentiment of any tweet** usi
 
 > 🎯 Enter a tweet and get instant sentiment prediction (Positive/Negative)
 
-![demo](demo.gif) <!-- Replace with your actual demo.gif or screenshot -->
+![demo](demo.png) 
 
 ---
 
