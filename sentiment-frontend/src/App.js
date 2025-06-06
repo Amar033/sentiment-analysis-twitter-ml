@@ -7,7 +7,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://sentiment-analysis-twitter-ml.railway.internal/predict", {
+      const response = await fetch("http://sentiment-analysis-twitter-ml-production.up.railway.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
