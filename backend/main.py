@@ -8,10 +8,13 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000",
-                    "http://localhost:3001",
-                    "https://sentiment-analysis-twitter-ml-wuzm.vercel.app",
-                  "https://sentiment-analysis-twitter-ml-fxtj.vercel.app"],
+    allow_origins=[
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "https://sentiment-analysis-twitter-ml-wuzm.vercel.app",
+    "https://sentiment-analysis-twitter-ml-fxtj.vercel.app"
+],
+
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
