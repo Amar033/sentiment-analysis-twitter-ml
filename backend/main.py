@@ -11,7 +11,7 @@ app.add_middleware(
     allow_origins=["http://localhost:3000",
                     "http://localhost:3001",
                     "https://sentiment-analysis-twitter-ml-wuzm.vercel.app",
-                  "http://sentiment-analysis-twitter-ml-fxtj.vercel.app/"],
+                  "http://sentiment-analysis-twitter-ml-fxtj.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
